@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".img1").click(function(){
+				var div = $(".img1");
+				div.animate({left: '100px'}, 'slow');
+				div.animate({width: '5000px'}, 'slow');
+			})
+		})
+
+		$(document).ready(function(){
+			$(".img2").click(function(){
+				var div = $(".img2");
+				div.animate({marginLeft: '150px'}, 'slow');
+			})
+		})
+
+		$(document).ready(function(){
+			$(".img3").click(function(){
+				var div = $(".img3");
+				div.animate({width: '150%'}, 'slow');
+				div.animate({marginLeft: '150px'}, 'slow');
+			})
+		})
+	</script>
+</head>
+<body><br>
+	<div class="img1">
+	<img src="coelho.jpg" width="10%">
+	</div><br>
+	<div class="img2">
+	<img src="coelho2.jpg" width="10%">
+	</div>
+	<div class="img3"><br>
+	<img src="maior-coelho.jpg" width="10%">
+	</div>
+
+
+</body>
+</html>
